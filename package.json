@@ -1,18 +1,46 @@
 {
   "name": "vue-utils-yy",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "description": "YINAOR收集的一些vue开发可能用到的'工具'。目前组件：YTable(基于ElTable封装的更多功能表格)，YScrollContainer(可让滚动内容向上或向下滚动的容器)；目前指令：clipboard(复制内容到剪切板)，highlight(高亮显示指定文本)，selecttext(划词选择显示对应的菜单按钮)；其他js工具",
+  "private": false,
+  "author": "YINAOR",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-utils-yy -dest lib plugins/index.js"
   },
+  "keywords": [
+    "前端",
+    "工具",
+    "封装",
+    "组件",
+    "指令",
+    "vue",
+    "table",
+    "scroll",
+    "component",
+    "directive",
+    "utils"
+  ],
+  "main": "dist/vue-utils-yy.umd.min.js",
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "sortablejs": "^1.9.0",
+    "clipboard": "^2.0.4",
+    "element-ui": "^2.11.1",
+    "path-to-regexp": "^3.0.0",
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1",
+    "xlsx": "^0.14.3",
+    "ol": "^5.3.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
     "@vue/cli-service": "~4.5.15",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "mockjs": "^1.0.1-beta3"
   }
 }
