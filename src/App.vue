@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import YScrollContainerTest from './components/YScrollContainerTest.vue'
+import YScrollContainerTest from './components/YScrollContainerTest2.vue'
 
 export default {
 	name: 'App',

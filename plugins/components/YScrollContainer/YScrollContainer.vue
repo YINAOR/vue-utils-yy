@@ -1,6 +1,6 @@
 <template>
 	<div class="scroll-container" :style="style" ref="scrollContainer" @mouseenter="stopScroll" @mouseleave="startScroll">
-		<div class="" ref="scrollContent">
+		<div class="scroll-content" ref="scrollContent">
 			<slot></slot>
 			<renderComponent class="scroll-copy" v-for="(item, index) in slotList" :key="index" :cRender="item" />
 		</div>

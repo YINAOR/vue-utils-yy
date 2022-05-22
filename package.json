@@ -1,6 +1,6 @@
 {
   "name": "vue-utils-yy",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "YINAOR收集的一些vue开发可能用到的'工具'。目前组件：YTable(基于ElTable封装的更多功能表格)，YScrollContainer(可让滚动内容向上或向下滚动的容器)；目前指令：clipboard(复制内容到剪切板)，highlight(高亮显示指定文本)，selecttext(划词选择显示对应的菜单按钮)；其他js工具",
   "private": false,
   "author": "YINAOR",

@@ -1,5 +1,7 @@
 # vue-utils-yy
 
+> 目前仍在测试阶段，难免会有bug
+
 ## 引入
 ```js main.js
 import Vue from 'vue'
@@ -149,4 +151,4 @@ export default {
 #### 3. selecttext (划词选择显示对应的菜单按钮)
 
 ### utils
-还未暴露，有需要可以访问GitHub查看源码
+还未暴露，有需要可以访问GitHub查看源码，[仓库地址](https://github.com/YINAOR/vue-utils-yy)
